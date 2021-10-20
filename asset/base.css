@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Public Sans', sans-serif;
+    background: #fff;
+}
+
+/* dung chung */
+
+:root{
+    --color-fiter:#afafaf;
+    --color-white:#fff;
+    --color-main:#726be3;
+    --color-primery:#2b2b2b;
+    --color-title:#2c2b2c;
+    --color-heading:#fa65b1;
+    --color-subheading:#bebebe;
+    --color-socical:#efefef;
+}
+
+/* grid */
+.grid{
+    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.ml-25{
+    margin-left: 25px;
+}
+
+.mr-25{
+    margin-right: 25px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.Free-Quote{
+    background: unset;
+    list-style: none;
+    color: var(--color-heading);
+    text-decoration: none;
+    border: 1px solid var(--color-heading);
+    border-radius: 69px;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.Free-Quote:hover{
+    color: var(--color-white);
+    background: var(--color-heading);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
